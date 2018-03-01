@@ -17,7 +17,16 @@ repositories {
 
 dependencies {
     compile 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
+    compile 'io.reactivex:rxjava:1.0.14'
+    compile 'io.reactivex:rxandroid:1.0.1'
 }
+android {
+    compileOptions{
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+    
 ```
 
 ## Setup for RxJava2
